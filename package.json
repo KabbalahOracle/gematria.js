@@ -1,0 +1,36 @@
+{
+  "name": "gematria",
+  "version": "1.0.0",
+  "description": "Functions to calculate numeric value of text entered according to Jewish numerology",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js | faucet",
+    "coverage": "covert test/*.js"
+  },
+  "keywords": [
+    "gematria",
+    "numerology",
+    "mysticism",
+    "hebrew"
+  ],
+  "testling" : {
+    "files" : "test/*.js",
+    "browsers" : {
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    }
+  },
+  "author": "Akiva Levy <akiva@sixthirteen.co> (http://sixthirteen.co/)",
+  "license": "MIT",
+  "devDependencies": {
+    "covert": "^1.0.1",
+    "faucet": "0.0.1",
+    "tape": "^3.0.3"
+  }
+}
