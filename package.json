@@ -15,13 +15,13 @@
   ],
   "testling" : {
     "files" : "test/*.js",
-    "browsers" : {
+    "browsers" : [
       "ie/6..latest",
       "chrome/22..latest",
       "firefox/16..latest",
       "safari/latest",
       "opera/11.0..latest"
-    }
+    ]
   },
   "author": "Akiva Levy <akiva@sixthirteen.co> (http://sixthirteen.co/)",
   "license": "MIT",
